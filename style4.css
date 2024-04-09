@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(48, 48, 48);
+    
+    color: rgb(239, 235, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 42vw;
+  
+}
+
+
+.botao{
+    background-color: rgb(12,112,242);
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;    
+    cursor: pointer;
+
+}
+
+section {
+    background-color: rgb(239,235,228);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#lampada {
+    background-color: rgb(239,235,228);
+    text-align: center;
+  
+}
+
+#secao {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 20vw;
+}
+ #ligar:hover{
+    transform: translateY(-7px);
+    transition-duration: 2s;
+    box-shadow: 0px 10px 10px 10px rgba(34, 22, 97, 0.397);;
+    background-color: rgb(216, 213, 49);
+}
+#desligar:hover{
+    transform: translateY(-7px);
+    transition-duration: 2s;
+    box-shadow: 0px 10px 10px 10px rgba(34, 22, 97, 0.397);;
+    background-color: rgb(172, 169, 184);
+}
